@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    color: aquamarine;
+    font-size: x-large;
+    border-radius: 20px;
+    background-color: azure;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+a{
+    background-color: rgb(66, 133, 133);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: large;
+    color: aliceblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    animation-name: a;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a {
+    to{background-color: rgb(66, 133, 133);}
+    from{background-color: aquamarine;}
+}
+
+.h{
+    color: red;
+}

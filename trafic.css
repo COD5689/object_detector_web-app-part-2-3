@@ -1,0 +1,39 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+background-color: rgb(173, 229, 238);
+padding: 5px;
+}
+
+#status
+{
+font-size: 18px;
+color: rgb(255, 130, 145);
+background-color: whitesmoke;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+canvas{
+    border-radius: 10px;
+    animation-name: border;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    to{box-shadow: 10px 10px 10px grey;}
+    from{box-shadow: 10px 10px 10px rgb(0, 0, 0);}
+}
+
+button{
+    float: right;
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
